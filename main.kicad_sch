@@ -1548,6 +1548,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 37b6c6d6-3e12-4736-912a-ea6e2bf06721)
   )
+  (text "Molex 85050-0000 is obsolete and hard to find.\nPanduit/Pancom 100-632-533 is also obsolete.\nOmron XC5F3222 might work."
+    (at 24.13 43.18 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 5a9029a4-3f6c-42fb-9e7c-bab47febfd88)
+  )
   (text "Jumper to DATA for 2000-SCAN-20 (default)" (at 116.84 43.18 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 86dc7a78-7d51-4111-9eea-8a8f7977eb16)
