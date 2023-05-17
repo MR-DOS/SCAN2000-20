@@ -2314,7 +2314,7 @@
     (property "Value" "Conn_ARM_JTAG_SWD_10" (at 178.3081 41.9173 0)
       (effects (font (size 1.27 1.27)) (justify right))
     )
-    (property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_2x05_P1.27mm_Vertical_SMD" (at 189.23 40.64 0)
+    (property "Footprint" "Custom_footprints_project:SAMTEC_SHF-105-01-L-D-SM-K-TR" (at 189.23 40.64 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (property "Datasheet" "http://infocenter.arm.com/help/topic/com.arm.doc.ddi0314h/DDI0314H_coresight_components_trm.pdf" (at 180.34 72.39 90)
