@@ -796,6 +796,11 @@
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid 46ea7e7b-c766-43ba-ae44-fb66cd25b71f)
   )
+  (text "STM32G070KBT6: \nmax output sink/source IO current per pin = 15mA.\nmax combined output sink/source IO current = 80mA.\n\nTLP3558A: \nMax trigger current = 3mA, but recommended current = 10mA.\nOn 3.3V, with a 330R current limiter, the TLP3558A will draw 5.4mA max.\n\nHence: About 11mA max per IO pin in the current config. Not a lot of headroom left.\n\nTherefore: If you want to connect a breakout panel, then either:\n\n* do that on a 2000-SCAN board that is not equipped with optos\nor\n* use a breakout panel equipped with line drivers"
+    (at 167.64 142.24 0)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 825c818f-3da2-4659-8976-f95d2c9d06d3)
+  )
   (text "Connector to breakout panel" (at 167.64 96.52 0)
     (effects (font (size 1.27 1.27)) (justify left bottom))
     (uuid c853c99e-2174-41ca-b4e6-fdd131f6e121)
