@@ -5,8 +5,9 @@ This repository contains the KiCAD PCB project files for a Keithley SCAN2000 rep
 
 It also has a header for a flat cable connector that can be used on a breakout board:
 for example for leds that indicate which input is active (< 4mA please), or for allowing the relays and input terminals to be moved to an external box.
+Silk screen has also been somewhat improved: added explanations of the screw terminal use.
 
-Programmning/debugging can be done via 2.54mm pin header, or via a standard ARM10 SWD connector. The latter has enough space around it for the use of a STDC14 connector.
+Programming/debugging can be done via 2.54mm pin header, or via a standard ARM10 SWD connector. The latter has enough space around it for the use of a STDC14 connector.
 
 ![Keithley SCAN2000 board](images/pcb.png)
 
@@ -29,7 +30,8 @@ The design is based on the SCAN2000 pcb made by [George Christidis](https://gith
 
 Flashing the MCU
 -------------------
-The source code and installation instructions can be found [here](https://github.com/PatrickBaus/SCAN2000_Firmware). You will need a ST-Link adapter to flash the MCU.
+The source code and installation instructions can be found [here](https://github.com/hb020/SCAN2000_Firmware). You will need a ST-Link adapter to flash the MCU.
+The source code published on the [original repo](https://github.com/PatrickBaus/SCAN2000_Firmware) has serious flaws (at the time of my publishing).
 
 Related Repositories
 --------------------
