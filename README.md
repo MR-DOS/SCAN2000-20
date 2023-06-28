@@ -3,20 +3,21 @@ Keithley SCAN2000 SSR Replacement
 
 This repository contains the KiCAD PCB project files for a Keithley SCAN2000 replacement card. It uses solid-state relays instead of mechanical relays.
 
-
 ![Keithley SCAN2000 board](images/pcb.png)
 
-It has a header for a flat cable connector that can be used on a breakout board:
-for example for leds that indicate which input is active (< 4mA please), or for allowing the relays and input terminals to be moved to an external box, like this:
+It has a header for a flat cable connector that can be used on a [breakout board](https://github.com/hb020/SCAN2000_breakout), allowing the relays and input terminals to be moved to an external box, like this:
 
 ![Keithley SCAN2000 board, for breakout](images/pcb_for_breakout.png)
 ![breakout case](images/breakout_case.png)
 
-For a breakout board see [here](https://github.com/hb020/SCAN2000_breakout).
+This breakout board is easier to move about than the typical huge and stiff multiconnector cable that goes into the standard board. And it already has connectors on it.
 
-Silk screen has also been somewhat improved: added explanations of the screw terminal use.
+You can also use the flat cable connector for leds that indicate which input is active, but in that case you must stay below 4mA.
 
-Programming/debugging can be done via 2.54mm pin header, or via a standard ARM10 SWD connector. The latter has enough space around it for the use of a STDC14 connector.
+Apart from the above, the following changes were made to the original:
+
+* Silk screen has also been somewhat improved: added explanations of the screw terminal use.
+* Programming/debugging a standard ARM10 SWD connector has been added. It has enough space around it for the use of a STDC14 connector. You can also still use the 2.54mm pin header.
 
 |DMM|Tested|Works|Note|
 |--|--|--|--|
