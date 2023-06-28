@@ -16,8 +16,8 @@ You can also use the flat cable connector for leds that indicate which input is 
 
 Apart from the above, the following changes were made to the original:
 
-* Silk screen has also been somewhat improved: added explanations of the screw terminal use.
-* Programming/debugging a standard ARM10 SWD connector has been added. It has enough space around it for the use of a STDC14 connector. You can also still use the 2.54mm pin header.
+* Silk screen has been somewhat improved: added explanations of the screw terminal use.
+* Programming/debugging via a standard ARM10 SWD connector is now possible. It has enough space around it for the use of a STDC14 connector. You can also still use the 2.54mm pin header.
 
 |DMM|Tested|Works|Note|
 |--|--|--|--|
