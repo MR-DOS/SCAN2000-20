@@ -1,13 +1,16 @@
 Keithley SCAN2000 SSR Replacement
 ===================
 
+Notes from MR-DOS: This device is functionally the same as the original one made by hb020. However, since I work in medical eletronics field, I had the urge to check the barriers between the switched terminals and the microcontroller section against related design and safety standards. This PCB should be compliant with IPC-2221B, UL796 and UL60950-1, though take this device as low voltage device with only FUNCTIONAL barrier, NOT SAFETY barrier. Due to conflict with IPC-2221B on one of the barriers (between adjacent pins of the SSRs) and recommended rating of the SSRs, I have lowered rating of this card to a maximum of 150 V and 0.5 A of DC or peak voltage/current. Even though I have checked that the device should be safe under these conditions, I can not guarantee this. For example, in cases where soldering residues are left on the PCB, the rating may be compromised. Take into account that this scanning card is not suitable for measuring of low voltages or temperature (due to cheap terminals with high TC) or currents (due to leakage of the SSRs) or combinations of low and high voltages/currents, especially for AC (due to capacitance of the SSRs). For such needs, relay based cards are more suitable. Also, the card has been re-routed because... I didn't like the routing (which is a personal thing and it does not mean that hb020's version is bad in any way!).
+
 This repository contains the KiCAD PCB project files for a Keithley SCAN2000 replacement card. It uses solid-state relays instead of mechanical relays.
+Note from MR-DOS: You do not need to assemble the PFL connector, it is used for external switching matrix. I was too lazy to remove the connector in this image, see original repo for the image.
 
 ![Keithley SCAN2000 board](images/pcb.png)
 
-It has a header for a flat cable connector that can be used on a [breakout board](https://github.com/hb020/SCAN2000_breakout), allowing the relays and input terminals to be moved to an external box, like this:
+It has a header for a flat cable connector that can be used on a [breakout board](https://github.com/hb020/SCAN2000_breakout), allowing the relays and input terminals to be moved to an external box.
+Note from MR-DOS: In such case, you do not need to assemble the terminals and SSRs. I was too lazy to provide this second image, see original repo for the image.
 
-![Keithley SCAN2000 board, for breakout](images/pcb_for_breakout.png)
 ![breakout case](images/breakout_case.png)
 
 This breakout board is easier to move about than the typical huge and stiff multiconnector cable that goes into the standard board. And it already has connectors on it.

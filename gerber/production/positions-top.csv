@@ -1,0 +1,7 @@
+Ref,Val,Package,PosX,PosY,Rot,Side
+"FM1","Fiducial","Fiducial_1mm_Mask2mm",5.000000,5.000000,180.000000,bottom
+"FM2","Fiducial","Fiducial_1mm_Mask2mm",223.600000,57.992000,180.000000,bottom
+"R16","2m","R_2512_6332Metric",156.210000,54.356000,0.000000,bottom
+"R17","2m","R_2512_6332Metric",104.140000,54.356000,0.000000,bottom
+"R40","2m","R_2512_6332Metric",156.210000,14.224000,0.000000,bottom
+"R41","2m","R_2512_6332Metric",104.140000,14.224000,0.000000,bottom
